@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-900 text-white">
+    <!-- Navigation Bar -->
+    <div class="p-5">
+      <nav class="max-w-7xl mx-auto">
+        <ul
+          class="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-10 text-sm sm:text-base"
+        >
+          <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+          <li>
+            <a href="#projects" class="hover:text-yellow-400">Projects</a>
+          </li>
+          <li><a href="#certifications" class="hover:text-yellow-400">Certifications</a></li>
+          <li><a href="#footer" class="hover:text-yellow-400">Footer</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="px-6 py-10 md:py-20 max-w-6xl mx-auto">
+      <div class="md:w-3/4">
+        <h1
+          id="typing"
+          class="text-2xl md:text-4xl font-bold text-yellow-400"
+        ></h1>
+        <p class="mt-4 text-lg">
+          I craft responsive websites and modern user experiences with
+          <span class="text-yellow-400 font-bold"
+            >HTML, CSS, Tailwind CSS, JS, React, Node.js, Express.js,
+            MongoDB.</span
+          >
+        </p>
+
+        <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
+          <div>
+            <p class="font-bold">E-mail:</p>
+            <span class="text-yellow-400">shaikhnazar265@gmail.com</span>
+          </div>
+          <div>
+            <p class="font-bold">Mobile:</p>
+            <span class="text-yellow-400">+91 8626074005</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4 mt-8">
+          <a
+            href="https://www.linkedin.com/in/nazar-shaikh-197003293/"
+            target="_blank"
+            ><button
+              class="border-2 border-yellow-400 p-2 w-full sm:w-40 rounded text-yellow-400 shadow-lg hover:shadow-xl transition"
+            >
+              LinkedIn
+            </button></a
+          >
+          <a href="https://github.com/NazarShaikh" target="_blank"
+            ><button
+              class="bg-yellow-400 shadow-lg p-2 w-full sm:w-40 rounded text-black font-semibold"
+            >
+              GitHub
+            </button></a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-700 px-6 py-10 md:py-16">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-blue-400">
+          Let me introduce myself
+        </h2>
+        <p class="mt-5 text-lg">
+          I'm a Computer Application (BCA Sci) Student at
+          <span class="text-yellow-400"
+            >Pratibha College of Commerce and Computer Studies</span
+          >. Interested in building dynamic, responsive and interactive
+          websites.
+        </p>
+        <p class="mt-4 text-lg">
+          I specialize in <span class="text-yellow-400">HTML</span>,
+          <span class="text-yellow-400">CSS</span>,
+          <span class="text-yellow-400">Tailwind CSS</span>,
+          <span class="text-yellow-400">JavaScript</span>,
+          <span class="text-yellow-400">React.js</span>,
+          <span class="text-yellow-400">Node.js</span>,
+          <span class="text-yellow-400">MongoDB</span> and
+          <span class="text-yellow-400">Express.js</span>.
+        </p>
+        <p class="mt-4 text-lg">
+          I'm eager to work on real-world projects, collaborate with teams, and
+          grow as a full-stack developer.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-900 px-6 py-10">
+      <h2 class="text-center text-3xl font-bold">
+        Technical And Professional Skills
+      </h2>
+      <p class="text-center font-bold text-2xl text-yellow-400">My Skills</p>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 max-w-6xl mx-auto"
+      >
+        <!-- Technical Skills -->
+        <div>
+          <h3 class="text-center font-bold text-xl">Technical Skills</h3>
+          <div class="space-y-6 mt-6">
+            <!-- <div class="flex justify-between border-b-4 pb-2">
+            <p>HTML</p>
+            <span class="text-yellow-400 border border-yellow-400 rounded px-2">95%</span>
+          </div> -->
+          <div class="mb-4">
+            <div class="mb-2">
+              <div class="flex justify-between mb-1">
+                <p>HTML</p>
+                <span class="text-yellow-500 font-bold">95%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 95%;"
+                ></div>
+              </div>
+            </div>
+
+              <div class="flex justify-between mb-1">
+                <p>CSS</p>
+                <span class="text-yellow-500 font-bold">85%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 85%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>JavaScript</p>
+                <span class="text-yellow-500 font-bold">45%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 45%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>React.js</p>
+                <span class="text-yellow-500 font-bold">50%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 50%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>Node.js</p>
+                <span class="text-yellow-500 font-bold">50%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 50%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>Express.js</p>
+                <span class="text-yellow-500 font-bold">50%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 50%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>MongoDB</p>
+                <span class="text-yellow-500 font-bold">90%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 90%;"
+                ></div>
+              </div>
+
+              <div class="flex justify-between mb-1">
+                <p>SQL</p>
+                <span class="text-yellow-500 font-bold">95%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded h-2 mb-2">
+                <div
+                  class="bg-yellow-400 h-2 rounded"
+                  style="width: 95%;"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div>
+          <h3 class="text-center font-bold text-xl">Professional Skills</h3>
+          <div class="mt-8 space-y-14 text-yellow-400">
+            <div>
+              <h4 class="font-bold">Teamwork</h4>
+              <p class="text-white">
+                Committed team player who values open communication and
+                collective success.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-bold">Creativity</h4>
+              <p class="text-white">
+                Creative problem-solver with a keen eye for design and
+                functionality.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-bold">Project Management</h4>
+              <p class="text-white">
+                Capable of organizing tasks and managing deadlines using modern
+                tools.
+              </p>
+            </div>
+            <div>
+              <h4 class="font-bold">Communication</h4>
+              <p class="text-white">
+                Effective communicator with the ability to clearly convey ideas,
+                actively listen, and collaborate smoothly across teams to
+                achieve shared goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-700 px-6 py-10">
+      <h2 class="text-center text-3xl font-bold">My Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-10 max-w-5xl mx-auto">
+        <div class="border-4 bg-white p-6 text-blue-400 rounded shadow">
+          <h3 class="font-bold text-2xl text-blue-900">Todo List</h3>
+          <p class="text-gray-700 text-xs mt-2">
+            "Built a dynamic To-Do List web app using HTML, CSS, and JavaScript,
+            allowing users to add, delete, and manage tasks with a clean and
+            responsive interface. Implemented intuitive interactions and minimal
+            design to enhance user focus and usability across devices."
+          </p>
+          <a
+            href="https://nazarshaikh.github.io/Todo-Frontend/"
+            target="_blank"
+            class="inline-block bg-yellow-400 rounded mt-4 px-4 py-2 text-black"
+            >Visit Site</a
+          >
+        </div>
+        <div class="border-4 bg-white p-6 text-blue-400 rounded shadow">
+          <h3 class="font-bold text-2xl text-blue-900">Fashion Collection</h3>
+          <p class="text-gray-700 text-xs mt-2">
+            "Designed and developed the frontend of a responsive fashion
+            collection website. using HTML, CSS, and JavaScript (or
+            React/Tailwind if used), ensuring a clean layout, smooth user
+            experience, and mobile-first responsiveness
+          </p>
+          <a
+            href="https://fashioncollection.vercel.app/"
+            class="inline-block bg-yellow-400 rounded mt-4 px-4 py-2 text-black"
+            >Visit Site</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section id="certifications" class="bg-gray-900 px-6 py-10 text-white">
+  <h2 class="text-3xl font-bold text-yellow-400 mb-8 text-center">Certifications</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+    <!-- Certification 1 -->
+    <div class="bg-gray-800 border border-yellow-400 rounded-2xl p-6 shadow-lg hover:shadow-yellow-400 transition-shadow duration-300">
+  <h3 class="text-xl font-semibold text-white mb-2">Web Development</h3>
+  <p class="text-yellow-400 font-medium mb-2">Corizo Edutech</p>
+  <p class="text-gray-300 mb-4">
+    Developed and designed frontend applications with backend support using MongoDB.
+  </p>
+  <a href="https://drive.google.com/file/d/1bV_o-QTOqrOfOLkF_VLs9F8eu60WPfMQ/view" 
+     target="_blank" 
+     class="inline-block bg-yellow-400 text-gray-900 font-semibold px-4 py-2 rounded hover:bg-yellow-500 transition duration-300">
+    View Certificate
+  </a>
+</div>
+
+
+    <!-- Certification 2 -->
+    <div class="bg-gray-800 border border-yellow-400 rounded-2xl p-6 shadow-lg hover:shadow-yellow-400 transition-shadow duration-300">
+      <h3 class="text-xl font-semibold text-white mb-2">MERN Stack Development</h3>
+      <p class="text-yellow-400 font-medium mb-2">PickUpbizz</p>
+      <p class="text-gray-300">
+        Developed and designed full stack applications using Node.js, Express.js, React.js (frontend), and MongoDB (backend).
+      </p>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- Scroll to Top Button -->
+    <button
+      id="scrollTopBtn"
+      class="fixed bottom-5 right-5 bg-yellow-400 text-black px-4 py-2 rounded shadow hidden"
+    >
+      ↑ Top
+    </button>
+
+    <!-- Footer -->
+    <footer class="bg-gray-700 py-4 text-center font-bold">
+      <p>&copy; <span id="year"></span> | All Rights Reserved</p>
+    </footer>
+
+    <!-- JavaScript Enhancements -->
+    <script>
+      // Typing Animation
+      const text = "Hi, I'm NAZAR SHAIKH — Web Developer.";
+      let i = 0;
+      function type() {
+        if (i < text.length) {
+          document.getElementById("typing").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(type, 80);
+        }
+      }
+      window.onload = type;
+
+      // Scroll to Top Button
+      const scrollBtn = document.getElementById("scrollTopBtn");
+      window.addEventListener("scroll", () => {
+        scrollBtn.classList.toggle("hidden", window.scrollY < 200);
+      });
+      scrollBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      // Set current year
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value;
+          const email = document.getElementById("email").value;
+          const message = document.getElementById("message").value;
+          const formMessage = document.getElementById("formMessage");
+
+          try {
+            const response = await fetch("http://localhost:5000/contact", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ name, email, message }),
+            });
+
+            const result = await response.json();
+            if (response.ok) {
+              formMessage.textContent = "✅ Message sent successfully!";
+              formMessage.className =
+                "text-green-400 font-semibold text-center";
+              e.target.reset();
+            } else {
+              formMessage.textContent = "❌ Error: " + result.error;
+              formMessage.className = "text-red-400 font-semibold text-center";
+            }
+          } catch (err) {
+            formMessage.textContent = "❌ Server Error. Please try again.";
+            formMessage.className = "text-red-400 font-semibold text-center";
+            console.error(err);
+          }
+        });
+    </script>
+  </body>
+</html>
